@@ -21,7 +21,7 @@ class Products {
 
   delete = (index) => {
     const product = this.products[index];
-    this.products.splice(index);
+    this.products.splice(index, 1);
 
     return product;
   };
